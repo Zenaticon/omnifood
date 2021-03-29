@@ -125,6 +125,10 @@ a:visited {
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
     transition: border-bottom 0.2s, color 0.2s;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    -moz-transition: border-bottom 0.2s, color 0.2s;
+    -ms-transition: border-bottom 0.2s, color 0.2s;
+    -o-transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
@@ -143,6 +147,14 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
 }
 
 .btn:hover,
@@ -197,6 +209,10 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -226,6 +242,10 @@ header {
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+    -moz-transition: border-bottom 0.2s;
+    -ms-transition: border-bottom 0.2s;
+    -o-transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
@@ -273,11 +293,23 @@ header {
     height: auto;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
+    -webkit-transition: transform 0.5s, opacity 0.5s;
+    -moz-transition: transform 0.5s, opacity 0.5s;
+    -ms-transition: transform 0.5s, opacity 0.5s;
+    -o-transition: transform 0.5s, opacity 0.5s;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
 }
 
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
 }
 
 /* ---------------------------- */
@@ -322,6 +354,10 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .btn-app:link,
@@ -329,10 +365,14 @@ header {
     border: 0;
 }
 
+.btn-app:first-of-type:link,
+.btn-app:first-of-type:visited {
+    margin-right: 10px;
+}
+
 .btn-app img {
     height: 50px;
     width: auto;
-    margin-right: 10px;
 }
 
 /* ---------------------------- */
@@ -388,6 +428,10 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 /* ---------------------------- */
@@ -404,6 +448,10 @@ cite img {
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 2px 2px #efefef;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .plan-box div {
@@ -463,6 +511,10 @@ textarea {
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 select {
@@ -520,6 +572,10 @@ footer {
     border: 0;
     color: #888;
     transition: color 0.2s;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 .footer-nav li a:hover,
@@ -537,6 +593,10 @@ ion-icon[name=logo-twitter],
 ion-icon[name=logo-google],
 ion-icon[name=logo-instagram] {
     transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
 }
 
 ion-icon[name=logo-facebook]:hover {
